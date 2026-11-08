@@ -1,0 +1,42 @@
+{
+  "name": "motion3d-edukasi",
+  "version": "1.0.0",
+  "description": "Kit video 3D 9:16 untuk konten tutorial & pengetahuan (Remotion + React Three Fiber). Gaya bisa diganti, durasi bisa mengikuti audio, render ke MP4.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render LapisanBumi out/lapisan-bumi_9x16_v1.mp4",
+    "render:preview": "remotion render LapisanBumi out/lapisan-bumi_preview.mp4 --scale=0.5",
+    "render:tutorial": "remotion render TutorialLangkah out/tutorial_9x16_v1.mp4",
+    "moodboard": "remotion still Moodboard out/moodboard.png",
+    "sfx": "python scripts/make_sfx.py",
+    "tekstur": "python scripts/make_textures.py",
+    "cek-frame": "node scripts/contact-sheet.mjs . LapisanBumi 0,10,24,34,40,50,60,70,80,88",
+    "cek": "tsc"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.2.0",
+    "@remotion/cli": "4.0.541",
+    "@remotion/fonts": "4.0.541",
+    "@remotion/media": "4.0.541",
+    "@remotion/media-utils": "4.0.541",
+    "@remotion/three": "4.0.541",
+    "@remotion/zod-types": "4.0.541",
+    "mediabunny": "1.64.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.541",
+    "three": "0.178.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/three": "0.178.1",
+    "@types/web": "0.0.166",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  }
+}
