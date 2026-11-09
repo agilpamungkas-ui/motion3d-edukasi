@@ -6,7 +6,7 @@
 import { useLoader } from "@react-three/fiber";
 import React, { useMemo } from "react";
 import { staticFile } from "remotion";
-import { Box3, Vector3, type Object3D } from "three";
+import { Box3, Vector3, type BufferGeometry, type Object3D } from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import type { V3 } from "../lib";
 
@@ -23,6 +23,11 @@ export const Model: React.FC<{ src: string; fit?: number; position?: V3; rotatio
   const gltf = useLoader(GLTFLoader, staticFile(src));
   const { scene, s, center } = useMemo(() => {
     const clone = gltf.scene.clone(true);
+    // sebagian ekspor .glb tidak menyertakan normal -> model tampak hitam; hitung bila hilang
+    clone.traverse((o) => {
+      const g = (o as unknown as { geometry?: BufferGeometry }).geometry;
+      if (g && !g.getAttribute("normal")) g.computeVertexNormals();
+    });
     const n = normalize(clone, fit);
     return { scene: clone, ...n };
   }, [gltf, fit]);

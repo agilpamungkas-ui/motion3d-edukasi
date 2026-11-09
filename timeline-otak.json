@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "judul": "Olahraga bikin otak tumbuh, beneran?",
+    "durasi": 79.6,
+    "audio": "audio/narasi-otak.mp3",
+    "catatan": "Waktu dipasang ke jeda audio ElevenLabs (silencedetect -38 dB, 0,25 dtk). Waktu kata di dalam jeda masih perkiraan proporsional."
+  },
+  "s1": {
+    "start": 0,
+    "end": 7.6,
+    "clickbait": 2.75,
+    "riset": 5.3,
+    "cap": [
+      ["Olahraga bikin otak", 0.05, 1.2],
+      ["kamu tumbuh.", 1.2, 2.33],
+      ["Kedengarannya kayak", 2.72, 3.7],
+      ["judul clickbait, kan?", 3.7, 5.2],
+      ["Tapi ada penelitiannya.", 5.3, 7.38]
+    ]
+  },
+  "s2": {
+    "start": 7.6,
+    "end": 21.7,
+    "xray": 7.9,
+    "hip": 9.8,
+    "seahorse": 10.6,
+    "memori": 12.75,
+    "shrink": 14.6,
+    "persen": 18.65,
+    "cap": [
+      ["Di bagian dalam otak", 7.83, 9.0],
+      ["ada hipokampus,", 9.0, 10.3],
+      ["bentuknya melengkung", 10.3, 11.3],
+      ["kayak kuda laut.", 11.3, 12.24],
+      ["Ini pusat ingatan.", 12.75, 14.12],
+      ["Masalahnya, di usia lanjut,", 14.52, 16.2],
+      ["hipokampus pelan-pelan menyusut,", 16.2, 18.33],
+      ["kira-kira 1–2 persen", 18.65, 20.2],
+      ["tiap tahun.", 20.2, 21.43]
+    ]
+  },
+  "s3": {
+    "start": 21.7,
+    "end": 35.1,
+    "orang": 23.5,
+    "jalan": 26.56,
+    "regang": 30.13,
+    "scan": 32.43,
+    "cap": [
+      ["Tahun 2011, peneliti", 21.92, 23.4],
+      ["mengajak 120 orang", 23.4, 25.0],
+      ["lanjut usia.", 25.0, 26.21],
+      ["Separuhnya jalan cepat", 26.56, 27.9],
+      ["40 menit, 3× seminggu.", 27.9, 29.8],
+      ["Separuhnya lagi cuma peregangan.", 30.13, 31.99],
+      ["Setahun kemudian,", 32.43, 33.5],
+      ["otak mereka dipindai.", 33.5, 34.9]
+    ]
+  },
+  "s4": {
+    "start": 35.1,
+    "end": 49.35,
+    "naik": 36.19,
+    "turun": 40.19,
+    "jam": 44.25,
+    "cap": [
+      ["Hasilnya?", 35.27, 35.89],
+      ["Kelompok jalan cepat:", 36.19, 37.6],
+      ["hipokampus membesar ±2%.", 37.6, 39.92],
+      ["Kelompok peregangan", 40.19, 41.6],
+      ["justru menyusut ±1,4%.", 41.6, 43.9],
+      ["Artinya, jarum jam otak", 44.25, 45.9],
+      ["seolah diputar mundur", 45.9, 47.4],
+      ["1–2 tahun.", 47.4, 49.12]
+    ]
+  },
+  "s5": {
+    "start": 49.35,
+    "end": 60.8,
+    "gerak": 50.71,
+    "bdnf": 52.4,
+    "pupuk": 54.6,
+    "lebih": 57.38,
+    "cap": [
+      ["Kok bisa?", 49.55, 50.26],
+      ["Saat kita bergerak,", 50.71, 51.9],
+      ["tubuh memproduksi BDNF,", 51.9, 53.6],
+      ["protein yang kerjanya", 53.6, 54.8],
+      ["mirip pupuk sel saraf.", 54.8, 57.08],
+      ["Makin tinggi BDNF-nya,", 57.38, 58.9],
+      ["makin besar pertumbuhannya.", 58.9, 60.57]
+    ]
+  },
+  "s6": {
+    "start": 60.8,
+    "end": 70.95,
+    "lansia": 62.49,
+    "studi": 64.83,
+    "vonis": 67.82,
+    "cap": [
+      ["Tapi jujur ya,", 61.0, 62.17],
+      ["diuji pada orang lanjut usia,", 62.49, 64.58],
+      ["dan studi lanjutan", 64.83, 66.0],
+      ["hasilnya belum selalu sama.", 66.0, 67.5],
+      ["Jadi anggap ini petunjuk kuat,", 67.82, 69.59],
+      ["bukan janji.", 69.86, 70.64]
+    ]
+  },
+  "s7": {
+    "start": 70.95,
+    "end": 79.6,
+    "kaki": 73.53,
+    "menit": 74.94,
+    "cta": 77.2,
+    "cap": [
+      ["Kabar baiknya, resepnya sederhana:", 71.08, 73.24],
+      ["jalan kaki.", 73.53, 74.53],
+      ["Mulai hari ini, 10 menit dulu.", 74.94, 76.91],
+      ["Simpan video ini buat pengingat.", 77.2, 79.07]
+    ]
+  },
+  "sfx": [
+    [0.0, "swell", 0.14],
+    [2.75, "tick", 0.3],
+    [5.3, "pop", 0.32],
+    [7.7, "whoosh", 0.2],
+    [9.8, "shimmer", 0.2],
+    [12.75, "ding", 0.24],
+    [14.6, "tick", 0.24],
+    [21.8, "whoosh", 0.2],
+    [23.5, "pop", 0.26],
+    [26.56, "pop", 0.26],
+    [30.13, "pop", 0.26],
+    [32.43, "shimmer", 0.2],
+    [35.27, "swell", 0.22],
+    [36.3, "thump", 0.34],
+    [40.3, "tick", 0.26],
+    [44.25, "whoosh", 0.22],
+    [49.55, "tick", 0.26],
+    [52.4, "shimmer", 0.24],
+    [57.4, "pop", 0.26],
+    [61.0, "whoosh", 0.18],
+    [62.5, "pop", 0.24],
+    [64.85, "pop", 0.24],
+    [67.85, "ding", 0.24],
+    [71.1, "swell", 0.18],
+    [73.55, "pop", 0.28],
+    [77.2, "ding", 0.26]
+  ]
+}

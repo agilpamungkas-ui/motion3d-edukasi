@@ -6,6 +6,7 @@ import { MOOD_H, MOOD_W, Moodboard } from "./compositions/Moodboard";
 import { StyleFrame, styleSchema } from "./compositions/StyleFrame";
 import { TutorialLangkah, tutorialDefaults, tutorialSchema, TUTORIAL_DURASI } from "./compositions/TutorialLangkah";
 import { CONTOH_DURASI, ContohModel, contohSchema } from "./compositions/ContohModel";
+import { OtakTumbuh, otakDefaults, otakSchema, OTAK_DURASI, hitungMetadataOtak } from "./compositions/OtakTumbuh";
 
 loadAllFonts();
 
@@ -44,6 +45,18 @@ export const RemotionRoot: React.FC = () => (
       durationInFrames={CONTOH_DURASI * 30}
       schema={contohSchema}
       defaultProps={{ tema: "glass" as const }}
+    />
+    {/* "Olahraga bikin otak tumbuh, beneran?" (audio: public/audio/narasi-otak.mp3) */}
+    <Composition
+      id="OtakTumbuh"
+      component={OtakTumbuh}
+      fps={30}
+      width={1080}
+      height={1920}
+      durationInFrames={Math.ceil(OTAK_DURASI * 30)}
+      schema={otakSchema}
+      defaultProps={otakDefaults}
+      calculateMetadata={hitungMetadataOtak}
     />
     <Still id="Moodboard" component={Moodboard} width={MOOD_W} height={MOOD_H} />
     <Still id="GayaFrame" component={StyleFrame} width={1080} height={1920} schema={styleSchema} defaultProps={{ tema: "neon" as const, jenis: "cutaway" as const }} />
